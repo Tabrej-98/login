@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="flexcenter">
+                <li><a href="#home">Home</a></li>
+                <!--<li><a href="{% url 'home' %}">Home</a></li>-->
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="flexright">
+                <li><a href="{% url 'signup' %}" class="signup-btn">Sign Up</a></li>
+                <li><a href="{% url 'login' %}" class="signin-btn">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>

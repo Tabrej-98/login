@@ -1,0 +1,75 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+.flexcenter{
+    list-style-type: none;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexright{
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-btn {
+    background-color: #f09d51;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.signin-btn{
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+form{
+    margin-top: 10px;
+}
+
+div{
+    text-align: center;
+}
+button{
+    background-color: red;
+    color:white;
+    border-radius: 8px;
+}
+button:hover{
+    font-weight: 700px;
+    background-color: darkgreen;
+    color: white;
+}
+button:active{
+    transition: 1s;
+}
